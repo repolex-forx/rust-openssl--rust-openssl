@@ -1,0 +1,11 @@
+{
+  "org": "rust-openssl",
+  "repo": "rust-openssl",
+  "versions": [
+    {
+      "commit": "48db60aca0159198b801c53dc4746bdd7808fe3c",
+      "tag": "v0.9.23",
+      "parsed_at": "2026-11-22T05:54:07.395509+00:00"
+    }
+  ]
+}
