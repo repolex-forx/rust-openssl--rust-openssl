@@ -1,0 +1,34 @@
+[2026-11-22T05:18:01Z] === ENRICH ITERATION 1 START | repo=rust-openssl/rust-openssl sha=48db60ac ===
+[2026-11-22T05:18:01Z] [iter=1] PHASE START: enrich repo=rust-openssl/rust-openssl sha=48db60ac runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/48db60ac-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/48db60aca0159198b801c53dc4746bdd7808fe3c.nq.gz
+[2026-11-22T05:18:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T05:18:09Z] [iter=1] AST store loaded triples=872198 load_secs=8 mem_mb=811 MB
+[2026-11-22T05:18:09Z] [iter=1] Step 2: Finding LSP targets mem_mb=811 MB
+[2026-11-22T05:18:11Z] [iter=1] LSP targets found call_sites=7319 imports=352 extends=0 implements=97 secs=2
+[2026-11-22T05:18:12Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=811 MB
+[2026-11-22T05:18:17Z] [iter=1] Position index built positions=57234 nodes_with_types=70409 secs=5 mem_mb=811 MB
+[2026-11-22T05:18:17Z] [iter=1] Step 3: Starting LSP resolution mem_mb=811 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T05:18:17Z] [iter=1] Resolving target type target_type=call_site count=7319
+[2026-11-22T05:18:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=openssl/src/bn.rs
+[2026-11-22T05:20:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=1 resolved=421 errors=0 current=openssl/src/lib.rs
+[2026-11-22T05:20:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=3 resolved=760 errors=0 current=openssl/src/ssl/mod.rs
+[2026-11-22T05:22:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=4 resolved=1347 errors=0 current=openssl/src/ec.rs
+[2026-11-22T05:23:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=5 resolved=1646 errors=0 current=openssl/src/x509/extension.rs
+[2026-11-22T05:28:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=8 resolved=2874 errors=0 current=openssl/src/x509/tests.rs
+[2026-11-22T05:29:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=9 resolved=3193 errors=0 current=openssl/src/ssl/tests/mod.rs
+[2026-11-22T05:31:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=10 resolved=3960 errors=0 current=openssl/examples/mk_certs.rs
+[2026-11-22T05:32:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.4 files_done=13 resolved=4364 errors=0 current=openssl/src/symm.rs
+[2026-11-22T05:33:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=14 resolved=4624 errors=0 current=openssl/src/sha.rs
+[2026-11-22T05:33:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=18 resolved=4831 errors=0 current=openssl/src/pkcs12.rs
+[2026-11-22T05:34:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=22 resolved=5188 errors=0 current=openssl/src/ssl/connector.rs
+[2026-11-22T05:35:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=25 resolved=5425 errors=0 current=openssl/src/ssl/tests/select.rs
+[2026-11-22T05:36:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=32 resolved=5640 errors=0 current=openssl/src/ocsp.rs
+[2026-11-22T05:36:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=36 resolved=5919 errors=0 current=openssl/src/x509/store.rs
+[2026-11-22T05:37:12Z] [iter=1] Target type resolved target_type=call_site resolved=6056 errors=0 secs=1134 mem_mb=811 MB
+[2026-11-22T05:37:12Z] [iter=1] Resolving target type target_type=import_statement count=352
+[2026-11-22T05:37:24Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=19.4 files_done=0 resolved=0 errors=0 current=openssl/src/ssl/connector.rs
+[2026-11-22T05:37:34Z] [iter=1] Target type resolved target_type=import_statement resolved=229 errors=0 secs=22 mem_mb=811 MB
+[2026-11-22T05:37:34Z] [iter=1] Resolving target type target_type=implements_clause count=97
+[2026-11-22T05:37:54Z] [iter=1] Target type resolved target_type=implements_clause resolved=95 errors=0 secs=20 mem_mb=811 MB
+[2026-11-22T05:51:48Z] [iter=1] Step 5: Writing final enrichment file triples=90355
+[2026-11-22T05:51:49Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/48db60aca0159198b801c53dc4746bdd7808fe3c.nq.gz size_kb=1807
+[2026-11-22T05:51:49Z] [iter=1] PHASE END: enrich elapsed_s=2028 elapsed_min=33.8 total_triples=90355

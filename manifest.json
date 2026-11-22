@@ -104,6 +104,133 @@
       ],
       "ast": [
         "aggregate/ast/48db60aca0159198b801c53dc4746bdd7808fe3c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/48db60aca0159198b801c53dc4746bdd7808fe3c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "foreign-types-shared",
+          "ecosystem": "CARGO",
+          "version": "0.1.1",
+          "githubOrg": "sfackler",
+          "githubRepo": "foreign-types",
+          "githubUrl": "https://github.com/sfackler/foreign-types",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/foreign-types-shared-0.1.1/src/lib.rs"
+        },
+        {
+          "packageName": "foreign-types",
+          "ecosystem": "CARGO",
+          "version": "0.3.2",
+          "githubOrg": "sfackler",
+          "githubRepo": "foreign-types",
+          "githubCommit": "553b6d725fb6ffe99201ee982ad3cd958712333b",
+          "githubTag": "v0.3.2",
+          "githubUrl": "https://github.com/sfackler/foreign-types",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/foreign-types-0.3.2/src/lib.rs"
+        },
+        {
+          "packageName": "lazy_static",
+          "ecosystem": "CARGO",
+          "version": "1.5.1",
+          "githubOrg": "rust-lang-nursery",
+          "githubRepo": "lazy-static.rs",
+          "githubUrl": "https://github.com/rust-lang-nursery/lazy-static.rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.5.1/src/lib.rs"
+        },
+        {
+          "packageName": "bitflags",
+          "ecosystem": "CARGO",
+          "version": "0.9.1",
+          "githubOrg": "bitflags",
+          "githubRepo": "bitflags",
+          "githubCommit": "20b2588f7d1665839885adb63450dd3e8adc2940",
+          "githubTag": "0.9.1",
+          "githubUrl": "https://github.com/bitflags/bitflags",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-0.9.1/src/lib.rs"
+        },
+        {
+          "packageName": "data-encoding",
+          "ecosystem": "CARGO",
+          "version": "2.11.1",
+          "githubOrg": "ia0",
+          "githubRepo": "data-encoding",
+          "githubCommit": "834737d9c3dc957ce1b653959e3f35061dd77ade",
+          "githubTag": "v2.11.1",
+          "githubUrl": "https://github.com/ia0/data-encoding",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/data-encoding-2.11.1/src/lib.rs"
+        },
+        {
+          "packageName": "pkg-config",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "pkg-config-rs",
+          "githubCommit": "a8852cc148f8f7d504bf3a62444c298dcd3637f0",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/pkg-config-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pkg-config-0.3.34/src/lib.rs"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.11.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cc-1.11.3/src/lib.rs"
+        },
+        {
+          "packageName": "hex",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "KokaKiwi",
+          "githubRepo": "rust-hex",
+          "githubCommit": "1e7195f48d2672fcd1751b4923228efdbbb517ce",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/KokaKiwi/rust-hex",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-0.2.0/src/lib.rs"
+        },
+        {
+          "packageName": "tempdir",
+          "ecosystem": "CARGO",
+          "version": "0.3.7",
+          "githubOrg": "rust-lang",
+          "githubRepo": "tempdir",
+          "githubCommit": "dcdddc211e6a66981e398d2f9858898572f9a5aa",
+          "githubTag": "v0.3.7",
+          "githubUrl": "https://github.com/rust-lang/tempdir",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tempdir-0.3.7/src/lib.rs"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.191",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+          "githubTag": "0.2.191",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs"
+        },
+        {
+          "packageName": "ctest",
+          "ecosystem": "CARGO",
+          "version": "0.1.7",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ctest-0.1.7/src/lib.rs"
+        }
       ]
     }
   ],
